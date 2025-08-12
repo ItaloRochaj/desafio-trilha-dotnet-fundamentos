@@ -88,23 +88,23 @@ Manter registro dos clientes e seus veículos
 ## � Demonstração do Sistema
 
 ### 1. Menu Principal
-![Menu Principal](images/screenshots/1-menu-principal.png)
+![Menu Principal](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi1.png)
 *Tela inicial do sistema com as opções disponíveis*
 
 ### 2. Cadastro de Veículo
-![Adicionar Veículo](images/screenshots/2-adicionar-veiculo.png)
+![Adicionar Veículo](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi2.png)
 *Interface de cadastro com informações do veículo*
 
 ### 3. Seleção do Tipo de Vaga
-![Tipo de Vaga](images/screenshots/3-tipo-vaga.png)
+![Tipo de Vaga](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi3.png)
 *Escolha entre vaga rotativa ou reservada*
 
 ### 4. Configuração do Período
-![Configurar Período](images/screenshots/4-configurar-periodo.png)
+![Configurar Período](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi4.png)
 *Definição do período e visualização dos preços*
 
 ### 5. Confirmação do Cadastro
-![Sucesso no Cadastro](images/screenshots/5-sucesso-cadastro.png)
+![Sucesso no Cadastro](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi5.png)
 *Confirmação do registro com detalhes da vaga*
 
 ### 6. Listagem de Veículos
