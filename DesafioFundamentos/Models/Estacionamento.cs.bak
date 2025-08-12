@@ -1,0 +1,100 @@
+namespace DesafioFundamentos.Models
+{
+    public class Estacionamento
+    {
+        private const decimal PrecoTurnoManha = 50.0m;
+        private const decimal PrecoTurnoTarde = 70.0m;
+        private const decimal PrecoTurnoNoite = 100.0m;
+        private const decimal PrecoDiaria = 200.0m;
+        private const decimal PrecoHora = 15.0m;
+        
+        private List<string> veiculos = new List<string>();
+        private List<Cliente> clientes = new List<Cliente>();
+        private Dictionary<string, (string tipo, DateTime entrada, string periodo)> vagasOcupadas = new Dictionary<string, (string, DateTime, string)>();
+
+        public Estacionamento(Cliente clienteInicial = null)
+        {
+            if (clienteInicial != null)
+            {
+                clientes.Add(clienteInicial);
+                veiculos.Add(clienteInicial.Veiculo.Placa);
+            }
+        }
+
+        public void AdicionarVeiculo()
+        {
+            Console.WriteLine("Digite os dados do veículo para estacionar:\n");
+            
+            Console.Write("Placa: ");
+            string placa = Console.ReadLine() ?? string.Empty;
+            
+            Console.Write("Modelo: ");
+            string modelo = Console.ReadLine() ?? string.Empty;
+            
+            Console.Write("Marca: ");
+            string marca = Console.ReadLine() ?? string.Empty;
+            
+            Console.Write("Cor: ");
+            string cor = Console.ReadLine() ?? string.Empty;
+            
+            Console.Write("Tipo (Carro/Moto/Outro): ");
+            string tipo = Console.ReadLine() ?? string.Empty;
+
+            Veiculo veiculo = new Veiculo(placa, modelo, marca, cor, tipo);
+            Cliente cliente = new Cliente("Cliente Rotativo", 0, veiculo);
+            clientes.Add(cliente);
+            veiculos.Add(placa);
+            
+            EscolherTipoVaga(placa);
+        }
+
+        public void RemoverVeiculo()
+        {
+            Console.WriteLine("Digite a placa do veículo para remover:");
+
+            string placa = Console.ReadLine();
+
+            if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
+            {
+                Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
+                
+                int horas = Convert.ToInt32(Console.ReadLine());
+                decimal valorTotal = precoInicial + (precoPorHora * horas);
+
+                veiculos.Remove(placa.ToUpper());
+
+                Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
+            }
+            else
+            {
+                Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
+            }
+        }
+
+        public void ListarVeiculos()
+        {
+            if (clientes.Any())
+            {
+                Console.WriteLine("═══════════════════════════════════════");
+                Console.WriteLine("    Veículos Estacionados             ");
+                Console.WriteLine("═══════════════════════════════════════");
+                
+                foreach(Cliente cliente in clientes)
+                {
+                    Console.WriteLine($"\nPlaca: {cliente.Veiculo.Placa}");
+                    Console.WriteLine($"Modelo: {cliente.Veiculo.Modelo}");
+                    Console.WriteLine($"Marca: {cliente.Veiculo.Marca}");
+                    Console.WriteLine($"Cor: {cliente.Veiculo.Cor}");
+                    Console.WriteLine($"Tipo: {cliente.Veiculo.Tipo}");
+                    Console.WriteLine("───────────────────────────────────");
+                }
+            }
+            else
+            {
+                Console.WriteLine("═══════════════════════════════════════");
+                Console.WriteLine("    Não há veículos estacionados      ");
+                Console.WriteLine("═══════════════════════════════════════");
+            }
+        }
+    }
+}
