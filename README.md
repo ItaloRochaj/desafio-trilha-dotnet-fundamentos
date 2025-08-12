@@ -188,4 +188,4 @@ Desenvolvido por [Italo Rocha](https://github.com/ItaloRochaj) como parte do Boo
 Este projeto foi desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA e é distribuído sob a licença MIT.
 
 ---
-<div align="center">Desenvolvido com ❤️ por <a href="https://github.com/ItaloRochaj">Italo Rocha</a></div>
+<div align="center">Desenvolvido com 👽 por <a href="https://github.com/ItaloRochaj">Italo Rocha</a></div>
