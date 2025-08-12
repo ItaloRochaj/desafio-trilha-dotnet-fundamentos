@@ -107,14 +107,6 @@ Manter registro dos clientes e seus veículos
 ![Sucesso no Cadastro](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi5.png)
 *Confirmação do registro com detalhes da vaga*
 
-### 6. Listagem de Veículos
-![Lista de Veículos](images/screenshots/6-listar-veiculos.png)
-*Visualização de todos os veículos estacionados*
-
-### 7. Remoção e Pagamento
-![Remover Veículo](images/screenshots/7-remover-veiculo.png)
-*Processo de saída e cálculo do valor a ser pago*
-
 ## 🛠️ Tecnologias
 
 - C# (.NET 6.0)
