@@ -139,7 +139,7 @@ dotnet run
 ```
 
 ### 🔗 Créditos
-Este projeto foi desenvolvido como parte de avaliação de desafio do Decola Tech Avanade 4ª Edição 2024, para avaliar o ensinado na bootcamp de fundamentos da linguagem de programação `C#`.
+Este projeto foi desenvolvido como parte de avaliação de desafio da Avanade - Back-end com .NET e IA, para avaliar o ensinado na bootcamp de fundamentos da linguagem de programação `C#`.
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou Avanade ou suas empresas associadas.*
 
