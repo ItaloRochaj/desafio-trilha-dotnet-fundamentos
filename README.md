@@ -2,6 +2,14 @@
 
 Projeto desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA, implementando um sistema completo de gerenciamento de estacionamento com diferentes tipos de vagas e modalidades de preço.
 
+## 💡 Visão Geral
+
+O sistema foi desenvolvido para atender as necessidades de um estacionamento comercial moderno, oferecendo funcionalidades avançadas de gestão de vagas e precificação flexível.
+
+## 📋 Funcionalidadestema de Estacionamento - DIO .NET
+
+Projeto desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA, implementando um sistema completo de gerenciamento de estacionamento com diferentes tipos de vagas e modalidades de preço.
+
 ## � Funcionalidades Implementadas
 
 - **Sistema de Vagas**
@@ -77,18 +85,59 @@ Calcular valores automaticamente
 Manter registro dos clientes e seus veículos
 É um projeto prático que demonstra conceitos importantes de programação e pode ser expandido com novas funcionalidades conforme necessário.
   
-## 🛠️ Tecnologias Utilizadas
+## � Demonstração do Sistema
 
-- **Linguagens e Frameworks:**
-  - C# (.NET 6.0)
-  - Visual Studio Code
-  - Git/GitHub
+### 1. Menu Principal
+![Menu Principal](images/screenshots/1-menu-principal.png)
+*Tela inicial do sistema com as opções disponíveis*
+
+### 2. Cadastro de Veículo
+![Adicionar Veículo](images/screenshots/2-adicionar-veiculo.png)
+*Interface de cadastro com informações do veículo*
+
+### 3. Seleção do Tipo de Vaga
+![Tipo de Vaga](images/screenshots/3-tipo-vaga.png)
+*Escolha entre vaga rotativa ou reservada*
+
+### 4. Configuração do Período
+![Configurar Período](images/screenshots/4-configurar-periodo.png)
+*Definição do período e visualização dos preços*
+
+### 5. Confirmação do Cadastro
+![Sucesso no Cadastro](images/screenshots/5-sucesso-cadastro.png)
+*Confirmação do registro com detalhes da vaga*
+
+### 6. Listagem de Veículos
+![Lista de Veículos](images/screenshots/6-listar-veiculos.png)
+*Visualização de todos os veículos estacionados*
+
+### 7. Remoção e Pagamento
+![Remover Veículo](images/screenshots/7-remover-veiculo.png)
+*Processo de saída e cálculo do valor a ser pago*
+
+## 🛠️ Tecnologias
+
+- C# (.NET 6.0)
+- Orientação a Objetos
+- Visual Studio Code
+- Git/GitHub
   
-## 🗒️ Requisitos do Projeto
-> Projeto - Sistema de Estacionamento
-- Desafio de projeto: Para este desafio, foi preciso utilizar os conhecimentos adquiridos no módulo de fundamentos, do Bootcamp na Avanade - Back-end com .NET e IA
-- Contexto: Na proposta desafio o desenvoledor foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
-- Proposta: Foi preciso construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
+## ⚙️ Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos.git
+   ```
+
+2. Navegue até a pasta do projeto:
+   ```bash
+   cd desafio-trilha-dotnet-fundamentos
+   ```
+
+3. Execute o projeto:
+   ```bash
+   dotnet run
+   ```
 
 
 #### A classe contém três variáveis, sendo:
@@ -138,23 +187,13 @@ O código foi fornecido pela metade, e a função do desenvolvedor era dar conti
 dotnet run
 ```
 
-### 🔗 Créditos
-Este projeto foi desenvolvido como parte de avaliação de desafio da Avanade - Back-end com .NET e IA, para avaliar o ensinado na bootcamp de fundamentos da linguagem de programação `C#`.
+## �🏻‍💻 Autor
 
-*Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou Avanade ou suas empresas associadas.*
+Desenvolvido por [Italo Rocha](https://github.com/ItaloRochaj) como parte do Bootcamp Avanade - Back-end com .NET e IA.
 
-## Autoria:
-<table style="border: 0;">
-  <tr>
-    <td align="left">
-      <a href="https://github.com/italorochaj">
-        <span><b>Italo Rocha</b></span>
-      </a>
-      <br>
-      <span>Assoc, Full-Stack Development</span>
-    </td>
-  </tr>
-</table>
+## 📄 Licença
 
-##
-<div align="center">Feito por <a href="https://github.com/italorochaj">@devrhakramer</a>.</div>
+Este projeto foi desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA e é distribuído sob a licença MIT.
+
+---
+<div align="center">Desenvolvido com ❤️ por <a href="https://github.com/ItaloRochaj">Italo Rocha</a></div>
