@@ -143,7 +143,7 @@ Este projeto foi desenvolvido como parte de avaliação de desafio da Avanade - 
 
 *Nota: Este projeto é apenas para fins educacionais e não possui nenhuma afiliação oficial com a franquia DIO ou Avanade ou suas empresas associadas.*
 
-## 👩🏼‍💻 Autoria:
+## Autoria:
 <table style="border: 0;">
   <tr>
     <td align="left">
