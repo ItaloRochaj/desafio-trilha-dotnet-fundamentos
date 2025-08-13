@@ -179,13 +179,18 @@ O código foi fornecido pela metade, e a função do desenvolvedor era dar conti
 dotnet run
 ```
 
-## �🏻‍💻 Autor
-
-Desenvolvido por [Italo Rocha](https://github.com/ItaloRochaj) como parte do Bootcamp Avanade - Back-end com .NET e IA.
-
-## 📄 Licença
-
-Este projeto foi desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA e é distribuído sob a licença MIT.
+### 👨🏻‍💻 Autor:
+<table style="border=0">
+  <tr>
+    <td align="left">
+      <a href="https://github.com/ItaloRochaj">
+        <span><b>Italo Rocha</b></span>
+      </a>
+      <br>
+      <span>Full-Stack Development</span>
+    </td>
+  </tr>
+</table>
 
 ---
 <div align="center">Desenvolvido com 👽 por <a href="https://github.com/ItaloRochaj">Italo Rocha</a></div>
