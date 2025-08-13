@@ -1,199 +1,263 @@
-# Sistema de Estacionamento - DIO .NET
+# 🚗 Sistema de Estacionamento - Trilha .NET DIO
 
-Projeto desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA, implementando um sistema completo de gerenciamento de estacionamento com diferentes tipos de vagas e modalidades de preço.
+![.NET](https://img.shields.io/badge/.NET-6.0-512BD4?style=for-the-badge&logo=dotnet)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Console](https://img.shields.io/badge/Console-Application-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Oriented%20Programming-FF6B6B?style=for-the-badge&logo=code&logoColor=white)
 
-## 💡 Visão Geral
+## 🎯 Visão Geral
 
-O sistema foi desenvolvido para atender as necessidades de um estacionamento comercial moderno, oferecendo funcionalidades avançadas de gestão de vagas e precificação flexível.
+Este projeto é um **Sistema Completo de Gerenciamento de Estacionamento** desenvolvido como parte do **Bootcamp Avanade - Back-end com .NET e IA**. A aplicação implementa um sistema robusto de controle de vagas com diferentes tipos de estacionamento, precificação flexível e interface interativa via console.
 
-## 📋 Funcionalidadestema de Estacionamento - DIO .NET
+## ⚡ Funcionalidades Implementadas
 
-Projeto desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA, implementando um sistema completo de gerenciamento de estacionamento com diferentes tipos de vagas e modalidades de preço.
+### 🚗 Gestão Completa de Veículos
+- ✅ **Cadastro de veículos** - Registro completo com placa, modelo, marca, cor e tipo
+- ✅ **Listagem de veículos** - Visualização de todos os veículos estacionados
+- ✅ **Remoção de veículos** - Processo de saída com cálculo automático de valores
+- ✅ **Validação de placas** - Verificação de veículos já estacionados
 
-## � Funcionalidades Implementadas
+### 🏢 Sistema de Vagas Avançado
+- ✅ **Vagas Rotativas** - Para permanência por hora ou turnos
+- ✅ **Vagas Reservadas** - Para períodos fixos com valores diferenciados
+- ✅ **Controle de ocupação** - Rastreamento de entrada e tipo de vaga
+- ✅ **Histórico de permanência** - Registro de data/hora de entrada
 
-- **Sistema de Vagas**
-  - Vagas Rotativas (curta permanência)
-  - Vagas Reservadas (períodos fixos)
+### 💰 Precificação Inteligente
+- ✅ **Preços por hora** - R$ 15,00/hora (até 5 horas)
+- ✅ **Turno Manhã** - R$ 50,00 (período matutino)
+- ✅ **Turno Tarde** - R$ 70,00 (período vespertino)
+- ✅ **Turno Noite** - R$ 100,00 (período noturno)
+- ✅ **Diária completa** - R$ 200,00 (24 horas)
 
-- **Precificação Flexível**
-  - Preços por hora: R$ 15,00/hora (até 5 horas)
-  - Turno Manhã: R$ 50,00
-  - Turno Tarde: R$ 70,00
-  - Turno Noite: R$ 100,00
-  - Diária completa: R$ 200,00
+### 🎨 Interface Interativa
+- ✅ **Menus formatados** - Interface visual clara e organizada
+- ✅ **Validações de entrada** - Verificação de dados do usuário
+- ✅ **Mensagens informativas** - Feedback visual para todas as ações
+- ✅ **Navegação intuitiva** - Fluxo de uso simplificado
 
-- **Gestão de Veículos**
-  - Cadastro completo (placa, modelo, marca, cor, tipo)
-  - Controle de entrada e saída
-  - Cálculo automático de valores
-  - Registro de permanência
-  
-## ⚙️ Planejamento do Projeto
-Este é um projeto de um sistema de gerenciamento de estacionamento desenvolvido em C# (.NET 6.0), que simula o funcionamento de um estacionamento comercial com diferentes tipos de vagas e modalidades de preços.
+## 🏗️ Estrutura do Projeto
 
-Principais funcionalidades implementadas:
-
-Gerenciamento de Veículos:
-
-Cadastro completo de veículos com informações como placa, modelo, marca, cor e tipo
-Listagem de todos os veículos estacionados
-Remoção de veículos com cálculo automático do valor a ser pago
-Sistema de Vagas:
-
-Dois tipos de vagas disponíveis:
-Vagas Rotativas: ideal para curta permanência
-Vagas Reservadas: para clientes que precisam de períodos fixos
-Sistema de Preços Flexível:
-
-Preços por hora: R$ 15,00/hora (até 5 horas)
-Preços por turno:
-Turno Manhã: R$ 50,00
-Turno Tarde: R$ 70,00
-Turno Noite: R$ 100,00
-Diária completa: R$ 200,00
-Controle de Permanência:
-
-Registro do horário de entrada
-Cálculo automático de valores baseado no período escolhido
-Diferentes opções de períodos de permanência
-Interface Amigável:
-
-Menus interativos e intuitivos
-Feedback visual com formatação clara
-Mensagens de confirmação e status
-Aplicabilidade: Este sistema pode ser utilizado em diversos cenários, como:
-
-Estacionamentos comerciais
-Shoppings centers
-Prédios comerciais
-Eventos temporários
-Aeroportos e terminais
-O projeto foi estruturado usando boas práticas de programação:
-
-Orientação a Objetos com classes bem definidas (Cliente, Veículo, Estacionamento)
-Encapsulamento adequado dos dados
-Validações de entrada
-Código limpo e organizado
-Interface de usuário consistente
-O sistema é especialmente útil para estabelecimentos que precisam:
-
-Gerenciar diferentes tipos de vagas
-Oferecer opções flexíveis de permanência
-Ter controle preciso sobre entrada e saída de veículos
-Calcular valores automaticamente
-Manter registro dos clientes e seus veículos
-É um projeto prático que demonstra conceitos importantes de programação e pode ser expandido com novas funcionalidades conforme necessário.
-  
-## � Demonstração do Sistema
-
-### 1. Menu Principal
-![Menu Principal](images/screenshots/1-menu-principal.png)
-*Tela inicial do sistema com as opções disponíveis*
-
-### 2. Cadastro de Veículo
-![Adicionar Veículo](images/screenshots/2-adicionar-veiculo.png)
-*Interface de cadastro com informações do veículo*
-
-### 3. Seleção do Tipo de Vaga
-![Tipo de Vaga](images/screenshots/3-tipo-vaga.png)
-*Escolha entre vaga rotativa ou reservada*
-
-### 4. Configuração do Período
-![Configurar Período](images/screenshots/4-configurar-periodo.png)
-*Definição do período e visualização dos preços*
-
-### 5. Confirmação do Cadastro
-![Sucesso no Cadastro](images/screenshots/5-sucesso-cadastro.png)
-*Confirmação do registro com detalhes da vaga*
-
-### 6. Listagem de Veículos
-![Lista de Veículos](images/screenshots/6-listar-veiculos.png)
-*Visualização de todos os veículos estacionados*
-
-### 7. Remoção e Pagamento
-![Remover Veículo](images/screenshots/7-remover-veiculo.png)
-*Processo de saída e cálculo do valor a ser pago*
-
-## 🛠️ Tecnologias
-
-- C# (.NET 6.0)
-- Orientação a Objetos
-- Visual Studio Code
-- Git/GitHub
-  
-## ⚙️ Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos.git
-   ```
-
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd desafio-trilha-dotnet-fundamentos
-   ```
-
-3. Execute o projeto:
-   ```bash
-   dotnet run
-   ```
-
-
-#### A classe contém três variáveis, sendo:
-
-- precoInicial: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
-- precoPorHora: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
-- veiculos: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
-
-#### A classe contém três métodos, sendo:
-
-- AdicionarVeiculo: Método responsável por receber uma placa digitada pelo usuário e guardar na variável veiculos.
-- RemoverVeiculo: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: precoInicial * precoPorHora, exibindo para o usuário.
-- ListarVeiculos: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
-
-#### Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
-1. Cadastrar veículo
-2. Remover veículo
-3. Listar veículos
-4. Encerrar
-
-#### Solução
-O código foi fornecido pela metade, e a função do desenvolvedor era dar continuidade obedecendo as regras descritas acima, para que no final, se tenha um programa funcional.
-
-#### Especificações de conteúdo:
-- Indique um nome para seu negócio.
-- Sua composição de estacionamento (cadastrar, remover, listar e encerrar).
-- O programa de conter classe e métodos.
-- A saída deve exibir a placa do veículo removido e o valor a ser pago.
-
-#### Especificações técnicas:
-- Todos os dados são capturados pelo console (entrada do usuário).
-- Exibir mensagens apropriadas a cada situação (você tem que interagir com o usuário).
-- O usuário tem a opção de não escolher nada e encerrrar o sistema.
-- Utilizar decimais e conversores nos itens.
-- Utilizar estruturas como: `if / else`, `for`, `foreach` e `switch`
-
-### ▶️ Instruções de Uso
-
-1. Clone ou baixe este repositório para a sua máquina local.
-
-2. Certifique-se de ter o [Node.js](https://nodejs.org/en/download/current) e [.NET 8.0](https://dotnet.microsoft.com/pt-br/download) instalado em sua máquina.
-
-3. Abra o terminal e navegue até o diretório raiz do projeto.
-
-4. Para executar, utilize o comando:
 ```
+desafio-trilha-dotnet-fundamentos/
+├── 📁 DesafioFundamentos/
+│   ├── 📁 Models/
+│   │   ├── Estacionamento.cs          # Classe principal do sistema
+│   │   ├── Cliente.cs                 # Modelo de dados do cliente
+│   │   └── Veiculo.cs                 # Modelo de dados do veículo
+│   ├── 📁 bin/Debug/net6.0/          # Arquivos compilados
+│   ├── 📁 obj/                        # Arquivos de build
+│   ├── Program.cs                     # Ponto de entrada da aplicação
+│   └── DesafioFundamentos.csproj      # Arquivo de projeto
+├── 📁 images/
+│   └── 📁 screenshots/                # Capturas de tela do sistema
+├── desafio-trilha-dotnet-fundamentos.sln  # Solution do projeto
+├── diagrama_classe_estacionamento.png     # Diagrama de classes
+└── README.md                              # Documentação do projeto
+```
+
+## 🎯 Regras de Negócio
+
+### 🚗 Modelo de Veículo
+- **Placa**: Identificador único do veículo (obrigatório)
+- **Modelo**: Modelo do veículo (obrigatório)
+- **Marca**: Fabricante do veículo (obrigatório)
+- **Cor**: Cor do veículo (obrigatório)
+- **Tipo**: Categoria (Carro/Moto/Outro) (obrigatório)
+
+### 👤 Modelo de Cliente
+- **Nome**: Nome do proprietário do veículo
+- **Documento**: Documento de identificação
+- **Veículo**: Veículo associado ao cliente
+
+### 🏢 Sistema de Vagas
+- **Vaga Rotativa**: Ideal para curta permanência (hora/turno)
+- **Vaga Reservada**: Para períodos específicos (turno/diária)
+- **Controle de entrada**: Registro automático de data/hora
+- **Cálculo automático**: Valores baseados no período escolhido
+
+### ⚖️ Validações Implementadas
+1. **Placa única**: Não permite veículos duplicados
+2. **Dados obrigatórios**: Valida preenchimento de campos essenciais
+3. **Período válido**: Verifica seleção de período apropriado
+4. **Tipo de vaga**: Valida escolha entre rotativa/reservada
+5. **Valores numéricos**: Tratamento seguro de entrada de horas
+
+## 🛠️ Boas Práticas Implementadas
+
+### 🏛️ Arquitetura
+- ✅ **Orientação a Objetos** - Classes bem definidas e encapsuladas
+- ✅ **Separação de Responsabilidades** - Models organizados por domínio
+- ✅ **Encapsulamento** - Dados protegidos com métodos de acesso
+- ✅ **Reutilização de código** - Métodos modulares e reutilizáveis
+
+### 📝 Código Limpo
+- ✅ **Nomenclatura clara** - Variáveis e métodos com nomes descritivos
+- ✅ **Comentários úteis** - Documentação onde necessário
+- ✅ **Estrutura organizada** - Código bem formatado e indentado
+- ✅ **Tratamento de erros** - Validações e mensagens apropriadas
+
+### 🎨 Interface do Usuário
+- ✅ **Menus visuais** - Formatação com bordas e separadores
+- ✅ **Feedback visual** - Mensagens de sucesso e erro
+- ✅ **Navegação intuitiva** - Fluxo lógico de operações
+- ✅ **Limpeza de tela** - Interface sempre organizada
+
+## 🚀 Tecnologias Utilizadas
+
+### 🎨 Framework e Runtime
+- **.NET 6.0** - Framework principal
+- **C#** - Linguagem de programação
+- **Console Application** - Tipo de aplicação
+
+### 🗄️ Estruturas de Dados
+- **List<T>** - Gerenciamento de coleções
+- **Dictionary<TKey, TValue>** - Mapeamento chave-valor para vagas
+- **DateTime** - Controle de data e hora
+- **Decimal** - Precisão monetária
+
+### 🛠️ Conceitos Aplicados
+- **Orientação a Objetos** - Classes, propriedades, métodos
+- **Encapsulamento** - Modificadores de acesso
+- **Coleções** - Listas e dicionários
+- **Estruturas de Controle** - if/else, switch, foreach
+- **Tratamento de Exceções** - try/catch para entradas inválidas
+
+### 🛠️ Ferramentas de Desenvolvimento
+- **Visual Studio Code** - IDE
+- **Git** - Controle de versão
+- **GitHub** - Repositório remoto
+
+## 🖥️ Demonstração do Sistema
+
+### 📸 Fluxo Completo de Operações
+
+O sistema possui uma interface interativa completa acessível via console:
+
+![Menu Principal](images/screenshots/1-menu-principal.png)
+*Tela inicial com todas as opções disponíveis*
+
+![Cadastro de Veículo](images/screenshots/2-adicionar-veiculo.png)
+*Interface de cadastro com validação de dados*
+
+![Seleção de Tipo de Vaga](images/screenshots/3-tipo-vaga.png)
+*Escolha entre vagas rotativas e reservadas*
+
+![Configuração de Período](images/screenshots/4-configurar-periodo.png)
+*Definição de período com exibição de preços*
+
+![Confirmação de Cadastro](images/screenshots/5-sucesso-cadastro.png)
+*Tela de sucesso com detalhes da operação*
+
+![Listagem de Veículos](images/screenshots/6-listar-veiculos.png)
+*Visualização completa dos veículos estacionados*
+
+![Remoção e Pagamento](images/screenshots/7-remover-veiculo.png)
+*Processo de saída com cálculo automático*
+
+### 🔗 Operações Disponíveis
+
+| Opção | Funcionalidade | Descrição |
+|-------|----------------|-----------|
+| `1` | Cadastrar veículo | Registro completo de novo veículo |
+| `2` | Remover veículo | Saída com cálculo de pagamento |
+| `3` | Listar veículos | Visualização de todos estacionados |
+| `4` | Encerrar | Finalização do sistema |
+
+### 💰 Estrutura de Preços
+
+```
+Preços por Hora (Vagas Rotativas):
+- 1 hora: R$ 15,00
+- 2 horas: R$ 30,00
+- 3 horas: R$ 45,00
+- 4 horas: R$ 60,00
+- 5 horas: R$ 75,00
+
+Preços por Turno (Ambas as vagas):
+- Turno Manhã: R$ 50,00
+- Turno Tarde: R$ 70,00
+- Turno Noite: R$ 100,00
+- Diária Completa: R$ 200,00
+```
+
+## 🚀 Como Executar
+
+### 📋 Pré-requisitos
+- .NET 6.0 SDK instalado
+- Visual Studio Code ou Visual Studio
+- Git (opcional)
+
+### 🔧 Passos para Execução
+
+1. **Clone o repositório**
+```bash
+git clone https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos.git
+cd desafio-trilha-dotnet-fundamentos
+```
+
+2. **Navegue até o projeto**
+```bash
+cd DesafioFundamentos
+```
+
+3. **Restaure as dependências**
+```bash
+dotnet restore
+```
+
+4. **Execute a aplicação**
+```bash
 dotnet run
 ```
 
-## �🏻‍💻 Autor
+### ⚡ Execução Rápida
+```bash
+# Para desenvolvimento rápido
+dotnet run --project DesafioFundamentos.csproj
+```
 
-Desenvolvido por [Italo Rocha](https://github.com/ItaloRochaj) como parte do Bootcamp Avanade - Back-end com .NET e IA.
+## 🎯 Principais Características
+
+### 🔥 Performance
+- ✅ **Estruturas otimizadas** - Uso eficiente de coleções
+- ✅ **Busca rápida** - Dictionary para controle de vagas
+- ✅ **Memória eficiente** - Gerenciamento adequado de objetos
+
+### 🛡️ Robustez
+- ✅ **Validação de entrada** - Verificação de dados do usuário
+- ✅ **Tratamento de erros** - Mensagens claras para situações inválidas
+- ✅ **Controle de duplicatas** - Prevenção de placas repetidas
+
+### 🎨 Usabilidade
+- ✅ **Interface intuitiva** - Menus claros e organizados
+- ✅ **Feedback imediato** - Confirmações e alertas visuais
+- ✅ **Navegação simples** - Fluxo lógico de operações
+
+### 🔧 Manutenibilidade
+- ✅ **Código organizado** - Classes bem estruturadas
+- ✅ **Métodos modulares** - Funções com responsabilidades específicas
+- ✅ **Fácil extensão** - Arquitetura preparada para novas funcionalidades
+
+## 📈 Melhorias Futuras
+
+- 🔄 Persistência em banco de dados
+- 🔐 Sistema de autenticação para operadores
+- 📊 Relatórios de ocupação e faturamento
+- 🧪 Testes unitários e de integração
+- 🌐 Interface web ou API REST
+- 📱 Aplicativo mobile para gestão
+- 💳 Integração com sistemas de pagamento
+- 📄 Geração de recibos e comprovantes
+
+## 👨🏻‍💻 Autor
+
+**Ítalo Rocha**
+- 🌐 GitHub: [@ItaloRochaj](https://github.com/ItaloRochaj)
+- 💼 LinkedIn: [https://www.linkedin.com/in/italorochaj/]
+
+---
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido como parte do Bootcamp Avanade - Back-end com .NET e IA e é distribuído sob a licença MIT.
-
----
-<div align="center">Desenvolvido com ❤️ por <a href="https://github.com/ItaloRochaj">Italo Rocha</a></div>
+Este projeto foi desenvolvido como parte do **Bootcamp Avanade - Back-end com .NET e IA**.
