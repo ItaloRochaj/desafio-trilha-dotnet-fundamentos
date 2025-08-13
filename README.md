@@ -134,26 +134,18 @@ desafio-trilha-dotnet-fundamentos/
 
 O sistema possui uma interface interativa completa acessível via console:
 
-![Menu Principal](images/screenshots/1-menu-principal.png)
+![Menu Principal](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi2.png)
 *Tela inicial com todas as opções disponíveis*
 
-![Cadastro de Veículo](images/screenshots/2-adicionar-veiculo.png)
+![Cadastro de Veículo](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi3.png)
 *Interface de cadastro com validação de dados*
 
-![Seleção de Tipo de Vaga](images/screenshots/3-tipo-vaga.png)
+![Seleção de Tipo de Vaga](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi4.png)
 *Escolha entre vagas rotativas e reservadas*
 
-![Configuração de Período](images/screenshots/4-configurar-periodo.png)
+![Configuração de Período](https://github.com/ItaloRochaj/desafio-trilha-dotnet-fundamentos/blob/v1.0/DesafioFundamentos/images/Assets/termi5.png)
 *Definição de período com exibição de preços*
 
-![Confirmação de Cadastro](images/screenshots/5-sucesso-cadastro.png)
-*Tela de sucesso com detalhes da operação*
-
-![Listagem de Veículos](images/screenshots/6-listar-veiculos.png)
-*Visualização completa dos veículos estacionados*
-
-![Remoção e Pagamento](images/screenshots/7-remover-veiculo.png)
-*Processo de saída com cálculo automático*
 
 ### 🔗 Operações Disponíveis
 
